@@ -23,8 +23,11 @@ function easeFilterDataTable(searchBoxID, tableID) {
         }
       }
 
-      if (!rowContainsFilter) {
-        rows[i].style.display = "none";
+       if (!rowContainsFilter) {
+        if (i == 0) {
+        } else {
+          rows[i].style.display = "none";
+        }
       } else {
         rows[i].style.display = "";
       }
