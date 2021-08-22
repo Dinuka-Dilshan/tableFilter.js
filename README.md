@@ -12,7 +12,7 @@ Download the table-filter.js file and include it in your project.
 
 {
 
-    <script src="table-filter.js"></script>
+    <script src="tableFilter.js"></script>
 }
 
 Call the function with relavant html id attributes.
