@@ -23,7 +23,7 @@ function easeFilterDataTable(searchBoxID, tableID) {
         }
       }
 
-       if (!rowContainsFilter) {
+      if (!rowContainsFilter) {
         if (i == 0) {
         } else {
           rows[i].style.display = "none";
