@@ -1,5 +1,5 @@
 
-# javascript table filter
+# tableFilter.js
 
 Use this module to easily filter HTML tables.
 
