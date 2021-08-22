@@ -1,6 +1,6 @@
 
 
-function easeFilterDataTable(searchBoxID, tableID) {
+function tableFilter(searchBoxID, tableID) {
   document.getElementById(searchBoxID).addEventListener("keyup", () => {
     var input, filter, table, tr, td, i;
     input = document.getElementById(searchBoxID);
