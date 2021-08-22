@@ -1,7 +1,4 @@
-//fun.js
-function getByID(elementID) {
-    return document.getElementById(elementID);
-}
+
 
 function easeFilterDataTable(searchBoxID, tableID) {
   document.getElementById(searchBoxID).addEventListener("keyup", () => {
@@ -35,5 +32,5 @@ function easeFilterDataTable(searchBoxID, tableID) {
   });
 }
 
-export {easeFilterDataTable}
+
 
